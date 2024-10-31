@@ -1,0 +1,20 @@
+{
+    "name": "nhrcc/core-contributions",
+    "description": "NHR Core Contributions plugin",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Nazmul Hasan Robin",
+            "email": "robin.sust08@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nhrcc\\CoreContributions\\": "includes/"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+}
